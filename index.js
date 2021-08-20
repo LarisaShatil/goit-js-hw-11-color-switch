@@ -13,6 +13,7 @@ const colors = [
   '#55647E',
   '#FF9500',
   '#C793E1',
+  'FFCD00',
 ];
 
 
@@ -25,6 +26,7 @@ const refs = {
   toStart: document.querySelector('[data-action="start"]'),
   toStop: document.querySelector('[data-action="stop"]'),
 };
+refs.body.style.backgroundColor= '#FFDCA3';
 
 const INTERVAL = 1000;
 
